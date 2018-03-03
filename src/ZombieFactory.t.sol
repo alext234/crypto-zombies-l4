@@ -17,7 +17,7 @@ contract ZombieFactoryUser {
 
 }
 
-contract ZombieFactoryTest is DSTest, ZombieFactoryEvents {
+contract ZombieFactoryTest is DSTest {
     ZombieFactory factory;
 
 	ZombieFactoryUser user1;
@@ -29,18 +29,13 @@ contract ZombieFactoryTest is DSTest, ZombieFactoryEvents {
     }
 
     function test_createRandomZombie() public {
-        expectEventsExact(factory);
         
         assertEq( factory.getZombiesCount(), 0);
         user1.createRandomZombie("a");        
         assertEq( factory.getZombiesCount(), 1);
-        // check for event
-        NewZombie(0, "a", factory.getDnaByIndex(0));
 
         user2.createRandomZombie("b");        
         assertEq( factory.getZombiesCount(), 2);
-        // check for event
-        NewZombie(1, "b", factory.getDnaByIndex(1));
        
         uint aDna = factory.getDnaByIndex(0);
         uint bDna = factory.getDnaByIndex(1);
