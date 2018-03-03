@@ -5,7 +5,7 @@
 
 # Overview
 
-This is from the tutorial at  TBD
+This is from the tutorial at  https://share.cryptozombies.io/en/lesson/4/share/alext?id=WyJnaXRodWJ8MTYyNDUyMiIsMiwxNF0=
  
 
 In addition, unit tests and testnet-based tests have been added.
