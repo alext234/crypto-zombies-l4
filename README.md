@@ -1,10 +1,11 @@
-[![Build Status](https://travis-ci.org/alext234/crypto-zombies-l3.svg?branch=master)](https://travis-ci.org/alext234/crypto-zombies-l3)
+[![Build Status](https://travis-ci.org/alext234/crypto-zombies-l4.svg?branch=master)](https://travis-ci.org/alext234/crypto-zombies-l4)
 
-# CryptoZombies, lesson 3
+
+# CryptoZombies, lesson 4
 
 # Overview
 
-This is from the tutorial at  https://share.cryptozombies.io/en/lesson/3/share/alext?id=Z2l0aHVifDE2MjQ1MjI=
+This is from the tutorial at  TBD
  
 
 In addition, unit tests and testnet-based tests have been added.
